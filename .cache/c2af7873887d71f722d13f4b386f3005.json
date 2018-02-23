@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"D:\\workspace\\jutils\\package.json","includedInParent":true,"mtime":1519366067163}],"generated":{"js":"\"use strict\";function e(e){return e.replace(/[\\u4e00-\\u9fa5]/g,\"**\").length}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.getLengthCN=e;"},"hash":"878a074f7d63ce599f0df4260c8413a2","cacheData":{"env":{}}}

@@ -1,0 +1,13 @@
+{
+  "name": "jutils",
+  "version": "1.0.0",
+  "description": "javascript utils for youzhej.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.js -p 8000 --open",
+    "build": "parcel build src/index.js -d build",
+    "test": "parcel test/index.html -p 8000 --open"
+  },
+  "author": "youzhej",
+  "license": "ISC"
+}
