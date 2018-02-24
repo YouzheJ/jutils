@@ -9,6 +9,8 @@ var isFunction = require('./handleType/isFunction');
 var isNull = require('./handleType/isNull');
 var isUndefined = require('./handleType/isUndefined');
 
+var isEmptyObj = require('./Object/isEmptyObj');
+
 module.exports = {
   getLengthCN,
 
@@ -20,4 +22,6 @@ module.exports = {
   isFunction,
   isNull,
   isUndefined,
+
+  isEmptyObj,
 }
