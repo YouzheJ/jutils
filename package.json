@@ -1,6 +1,6 @@
 {
   "name": "jutils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "javascript utils for youzhej.",
   "main": "min/jutils.min.js",
   "scripts": {
