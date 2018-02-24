@@ -11,6 +11,9 @@ var isUndefined = require('./handleType/isUndefined');
 
 var isEmptyObj = require('./Object/isEmptyObj');
 
+var parseQueryString = require('./url/parseQueryString');
+var stringfyQueryString = require('./url/stringfyQueryString');
+
 module.exports = {
   getLengthCN,
 
@@ -24,4 +27,7 @@ module.exports = {
   isUndefined,
 
   isEmptyObj,
+
+  parseQueryString,
+  stringfyQueryString,
 }
