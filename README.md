@@ -4,7 +4,7 @@
   1. https://segmentfault.com/a/1190000011966867
   2. https://github.com/proYang/outils
 
-- 目录
+- #### 目录
 
 - 方法
   - getLengthCN: 获取字符串长度，一个中文两个字符
