@@ -14,6 +14,12 @@ var isEmptyObj = require('./Object/isEmptyObj');
 var parseQueryString = require('./url/parseQueryString');
 var stringfyQueryString = require('./url/stringfyQueryString');
 
+var addZero = require('./date/addZero');
+var getDay = require('./date/getDay');
+var formatDate = require('./date/formatDate');
+
+var loadImg = require('./image/loadImg');
+
 module.exports = {
   getLengthCN,
 
@@ -30,4 +36,10 @@ module.exports = {
 
   parseQueryString,
   stringfyQueryString,
+
+  addZero,
+  getDay,
+  formatDate,
+
+  loadImg,
 }
