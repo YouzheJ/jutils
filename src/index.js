@@ -20,6 +20,8 @@ var formatDate = require('./date/formatDate');
 
 var loadImg = require('./image/loadImg');
 
+var downloadByForm = require('./download/downloadByForm');
+
 module.exports = {
   getLengthCN,
 
@@ -42,4 +44,6 @@ module.exports = {
   formatDate,
 
   loadImg,
+
+  downloadByForm,
 }
